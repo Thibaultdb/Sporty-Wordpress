@@ -1,0 +1,74 @@
+::selection {
+    background: orange;
+    color: white;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: orange;
+    /* Gecko Browsers */
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.img_nav {
+    height: auto;
+    width: 120px;
+}
+
+.banner_image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("media/banner_01.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg_h1 {
+    background-color: orange;
+    height: 40px;
+}
+
+nav {
+    background-image: none;
+}
+
+li a {
+    color: white !important;
+    font-weight: 440;
+}
+
+li a:hover {
+    border-bottom: solid 0.5px white;
+}
+
+.info_adjust {
+    background-color: #e6e6e6;
+    padding-bottom: 40px;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 26px;
+    padding-top: 3px;
+}
+
+.homepage_grid_text {
+    padding-top: 20px;
+}
+
+.replace_button {
+    position: relative;
+    bottom: 20px;
+}
